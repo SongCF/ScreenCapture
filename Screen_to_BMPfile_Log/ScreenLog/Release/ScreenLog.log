@@ -1,0 +1,26 @@
+﻿生成启动时间为 2013/6/18 19:40:03。
+     1>项目“G:\vc编程知识\关于屏幕录像\我的mirror driver\Screen_to_BMPfile_Log\ScreenLog\ScreenLog.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt changed_screen_parts.cpp videodriver.cpp
+         changed_screen_parts.cpp
+     1>changed_screen_parts.cpp(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>changed_screen_parts.cpp(80): warning C4101: “bitmap”: 未引用的局部变量
+         videodriver.cpp
+     1>videodriver.cpp(306): warning C4996: '_strupr': This function or variable may be unsafe. Consider using _strupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 11.0\VC\include\string.h(206) : 参见“_strupr”的声明
+     1>videodriver.cpp(478): warning C4996: '_strupr': This function or variable may be unsafe. Consider using _strupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 11.0\VC\include\string.h(206) : 参见“_strupr”的声明
+     1>videodriver.cpp(691): warning C4996: '_strupr': This function or variable may be unsafe. Consider using _strupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 11.0\VC\include\string.h(206) : 参见“_strupr”的声明
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\vc编程知识\关于屏幕录像\我的mirror driver\Screen_to_BMPfile_Log\Release\ScreenLog.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\vc编程知识\关于屏幕录像\我的mirror driver\Screen_to_BMPfile_Log\Release\ScreenLog.pdb" /SUBSYSTEM:CONSOLE,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\vc编程知识\关于屏幕录像\我的mirror driver\Screen_to_BMPfile_Log\Release\ScreenLog.lib" /MACHINE:X86 /SAFESEH Release\changed_screen_parts.obj
+         Release\videodriver.obj
+         正在生成代码
+         已完成代码的生成
+         ScreenLog.vcxproj -> G:\vc编程知识\关于屏幕录像\我的mirror driver\Screen_to_BMPfile_Log\Release\ScreenLog.exe
+     1>已完成生成项目“G:\vc编程知识\关于屏幕录像\我的mirror driver\Screen_to_BMPfile_Log\ScreenLog\ScreenLog.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.37
